@@ -1,0 +1,11 @@
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/SlotMachineD.GeneratedMSBuildEditorConfig.editorconfig
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/SlotMachineD.AssemblyInfoInputs.cache
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/SlotMachineD.AssemblyInfo.cs
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/SlotMachineD.csproj.CoreCompileInputs.cache
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/SlotMachineD.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/refint/SlotMachineD.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/SlotMachineD.pdb
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/SlotMachineD.deps.json
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/SlotMachineD.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/obj/Debug/net8.0/ref/SlotMachineD.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/Dafny/SlotMachineD.pdb

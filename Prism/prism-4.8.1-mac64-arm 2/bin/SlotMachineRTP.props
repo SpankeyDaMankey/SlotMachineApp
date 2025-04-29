@@ -1,0 +1,8 @@
+
+P=? [ F = 1 r1 = 7 ]  // Probability of getting SEVEN after 1 spins
+P=? [ F = 5 r1 = 7 ]  // Probability of getting SEVEN after 5 spins
+P=? [ F = 10 r1 = 7 ]  // Probability of getting SEVEN after 10 spins
+P=? [ F = 100 r1 = 7 ]  // Probability of getting SEVEN after 100 spins
+P=? [ F = 1000 r1 = 7 ]  // Probability of getting SEVEN after 1000 spins
+
+R{"payout"}=? [ S ] // RTP%

@@ -1,0 +1,14 @@
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.AssemblyInfoInputs.cache
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.AssemblyInfo.cs
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.csproj.CoreCompileInputs.cache
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/bin/Debug/net9.0/SlotMachineApp
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/bin/Debug/net9.0/SlotMachineApp.deps.json
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/bin/Debug/net9.0/SlotMachineApp.runtimeconfig.json
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/bin/Debug/net9.0/SlotMachineApp.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/bin/Debug/net9.0/SlotMachineApp.pdb
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/refint/SlotMachineApp.dll
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.pdb
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/SlotMachineApp.genruntimeconfig.cache
+/Users/spankeydamankey/Docs/UdeM - Winter 2025/IFT 6755 - Analyse du Logiciel/Project/SlotMachineApp/SlotMachineApp/obj/Debug/net9.0/ref/SlotMachineApp.dll

@@ -1,0 +1,89 @@
+dtmc
+
+const int CHERRY = 1;
+const int LEMON = 2;
+const int ORANGE = 3;
+const int PLUM = 4;
+const int BELL = 5;
+const int BAR = 6;
+const int SEVEN = 7;
+
+module reel1
+    r1 : [1..7] init 1;
+
+    [] true ->
+        0.2 : (r1' = CHERRY) + 
+        0.2 : (r1' = LEMON) +
+        0.2 : (r1' = ORANGE) +
+        0.2 : (r1' = PLUM) +
+        0.05 : (r1' = BELL) +
+        0.05 : (r1' = BAR) +
+        0.1 : (r1' = SEVEN);
+endmodule
+
+module reel2
+    r2 : [1..7] init 1;
+
+    [] true ->
+        0.2 : (r2' = CHERRY) + 
+        0.2 : (r2' = LEMON) +
+        0.2 : (r2' = ORANGE) +
+        0.2 : (r2' = PLUM) +
+        0.05 : (r2' = BELL) +
+        0.05 : (r2' = BAR) +
+        0.1 : (r2' = SEVEN);
+endmodule
+
+module reel3
+    r3 : [1..7] init 1;
+
+    [] true ->
+        0.2 : (r3' = CHERRY) + 
+        0.2 : (r3' = LEMON) +
+        0.2 : (r3' = ORANGE) +
+        0.2 : (r3' = PLUM) +
+        0.05 : (r3' = BELL) +
+        0.05 : (r3' = BAR) +
+        0.1 : (r3' = SEVEN);
+endmodule
+
+rewards "payout"
+    // Triple match
+    r1=r2 & r2=r3 & r1=CHERRY : 5;
+    r1=r2 & r2=r3 & r1=LEMON : 5;
+    r1=r2 & r2=r3 & r1=ORANGE : 5;
+    r1=r2 & r2=r3 & r1=PLUM : 5;
+    r1=r2 & r2=r3 & r1=BELL : 10;
+    r1=r2 & r2=r3 & r1=BAR : 15;
+    r1=r2 & r2=r3 & r1=SEVEN : 25;
+
+    // Double match
+    r1=r2 & r1!=r3 & r1=CHERRY : 2;
+    r1=r2 & r1!=r3 & r1=LEMON : 1;
+    r1=r2 & r1!=r3 & r1=ORANGE : 1;
+    r1=r2 & r1!=r3 & r1=PLUM : 1;
+    r1=r2 & r1!=r3 & r1=BELL : 3;
+    r1=r2 & r1!=r3 & r1=BAR : 4;
+    r1=r2 & r1!=r3 & r1=SEVEN : 7;
+
+    r1=r3 & r1!=r2 & r1=CHERRY : 2;
+    r1=r3 & r1!=r2 & r1=LEMON : 1;
+    r1=r3 & r1!=r2 & r1=ORANGE : 1;
+    r1=r3 & r1!=r2 & r1=PLUM : 1;
+    r1=r3 & r1!=r2 & r1=BELL : 3;
+    r1=r3 & r1!=r2 & r1=BAR : 4;
+    r1=r3 & r1!=r2 & r1=SEVEN : 7;
+
+    r2=r3 & r2!=r1 & r2=CHERRY : 2;
+    r2=r3 & r2!=r1 & r2=LEMON : 1;
+    r2=r3 & r2!=r1 & r2=ORANGE : 1;
+    r2=r3 & r2!=r1 & r2=PLUM : 1;
+    r2=r3 & r2!=r1 & r2=BELL : 3;
+    r2=r3 & r2!=r1 & r2=BAR : 4;
+    r2=r3 & r2!=r1 & r2=SEVEN : 7;
+
+    // Single match
+    r1!=r2 & r2!=r3 & r1!=r3 : 0;
+endrewards
+
+        
